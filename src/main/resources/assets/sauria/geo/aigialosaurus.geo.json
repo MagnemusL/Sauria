@@ -1,0 +1,92 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Aigialosaurus",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Aigialosaurus",
+					"pivot": [0, 5, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Aigialosaurus",
+					"pivot": [0, 5, 0],
+					"cubes": [
+						{"origin": [-1.5, 3, -4], "size": [4, 4, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0.5, 5.25, -4],
+					"cubes": [
+						{"origin": [-1, 5, -10], "size": [3, 2, 5], "uv": [0, 15]},
+						{"origin": [-0.5, 3.75, -6.5], "size": [2, 3, 3], "uv": [13, 21]}
+					]
+				},
+				{
+					"name": "Jaw",
+					"parent": "Head",
+					"pivot": [0, 4.8, -5.9],
+					"cubes": [
+						{"origin": [-1, 4, -10], "size": [3, 1, 5], "uv": [16, 15]},
+						{"origin": [0, 5.05, -9], "size": [1, 0, 3], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Tail",
+					"parent": "Body",
+					"pivot": [0.25, 5.5, 4],
+					"cubes": [
+						{"origin": [-0.5, 3.5, 4], "size": [2, 3.5, 5], "uv": [16, 0]},
+						{"origin": [0.5, 4.75, 9], "size": [0, 2.25, 13], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Leftarm",
+					"parent": "Aigialosaurus",
+					"pivot": [2.75, 3.75, -2.8],
+					"rotation": [12.5, 20, -22.5],
+					"cubes": [
+						{"origin": [2.75, 0.75, -4.8], "size": [0, 4, 3], "uv": [6, 19]}
+					]
+				},
+				{
+					"name": "Rightarm",
+					"parent": "Aigialosaurus",
+					"pivot": [-1.75, 3.75, -2.8],
+					"rotation": [12.5, -20, 22.5],
+					"cubes": [
+						{"origin": [-1.75, 0.75, -4.8], "size": [0, 4, 3], "uv": [0, 19]}
+					]
+				},
+				{
+					"name": "Leftleg",
+					"parent": "Aigialosaurus",
+					"pivot": [2.75, 3.75, 4.2],
+					"rotation": [12.5, 20, -22.5],
+					"cubes": [
+						{"origin": [2.75, -0.25, 2.2], "size": [0, 5, 3], "uv": [11, 12]}
+					]
+				},
+				{
+					"name": "Rightleg",
+					"parent": "Aigialosaurus",
+					"pivot": [-1.75, 3.75, 4.2],
+					"rotation": [12.5, -20, 22.5],
+					"cubes": [
+						{"origin": [-1.75, -0.25, 2.2], "size": [0, 5, 3], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
