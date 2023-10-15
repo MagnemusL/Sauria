@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"aigialosaurus.swim": {
+		"animation.aigialosaurus.swim": {
 			"loop": true,
 			"bones": {
 				"Aigialosaurus": {
@@ -77,7 +77,7 @@
 				}
 			}
 		},
-		"aigialosaurus.bite": {
+		"animation.aigialosaurus.bite": {
 			"loop": true,
 			"animation_length": 0.625,
 			"bones": {
@@ -117,7 +117,7 @@
 				}
 			}
 		},
-		"aigialosaurus.walk": {
+		"animation.aigialosaurus.walk": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {

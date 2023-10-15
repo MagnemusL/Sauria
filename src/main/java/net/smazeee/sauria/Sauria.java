@@ -23,7 +23,7 @@ public class Sauria
 {
     public static final String MODID = "sauria";
 
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public Sauria()
     {
